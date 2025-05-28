@@ -55,7 +55,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Set execution permission for pre_clone_action.sh
-        run: chmod +x ./pre_clone_action.sh
+        run: chmod +x ./pre_clone_action.sh && chmod +x ./build.sh && chmod +x ./update.sh
       - name: Initialization Environment
         env:
           DEBIAN_FRONTEND: noninteractive
