@@ -7,8 +7,8 @@ sudo apt install -y dos2unix libfuse-dev
 sudo bash -c 'bash <(curl -sL https://build-scripts.immortalwrt.org/init_build_environment.sh)'  
 
 使用步骤：  
-git clone https://github.com/ZqinKing/wrt_release.git  
-cd wrt_relese  
+git clone https://github.com/simonchan6688/wrt-auto-build.git  
+cd wrt-auto-build  
   
 编译京东云雅典娜(02)、亚瑟(01)、太乙(07)、AX5(JDC版):  
 ./build.sh jdcloud_ipq60xx_immwrt  
